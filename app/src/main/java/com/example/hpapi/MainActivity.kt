@@ -17,14 +17,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Inicializa as Views
+
         btnSpecificCharacter = findViewById(R.id.btn_specific_character)
         btnStaff = findViewById(R.id.btn_staff)
         btnHouseStudents = findViewById(R.id.btn_house_students)
         btnSpells = findViewById(R.id.btn_spells)
         btnExit = findViewById(R.id.btn_exit)
 
-        // Configura os listeners de clique
+
         btnSpecificCharacter.setOnClickListener {
             startActivity(Intent(this, CharacterByIdActivity::class.java))
         }
