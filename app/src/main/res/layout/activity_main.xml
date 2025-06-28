@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F0F4F8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HP-API Explorer"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_specific_character"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Personagem por ID"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Professores da Escola"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_house_students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Estudantes de uma Casa"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_spells"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Feitiços"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Sair"/>
+
+</LinearLayout>
